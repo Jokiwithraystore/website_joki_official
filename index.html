@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joki Rank MLBB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo">
+                <a href="">
+                    <img src="IMG/logo.jpg" alt="Logo" style="height: 40px; vertical-align: middle;">
+                    Jokiwithray_store
+                </a>
+            </div>
+            <div class="menu">
+                <span class="menu-icon" onclick="toggleMenu()">&#9776;</span> <!-- Hamburger Icon for mobile -->
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#list-harga">List Harga</a></li>
+                    <li><a href="#sosmed">Sosmed</a></li>
+                    <li><a href="#address">Address</a></li>
+                    <li><a href="javascript:void(0);" class="tbl-biru" onclick="openModal('signup-modal')">Sign Up</a></li>
+                    <li><a href="javascript:void(0);" class="tbl-biru" onclick="openModal('login-modal')">Log In</a></li>
+                </ul>
+            </div>
+        </div>
+        
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <!-- untuk home -->
+        <section id="home">
+            <img src="https://i0.wp.com/www.lapakgaming.com/blog/id-id/wp-content/uploads/2023/08/pp-ml.jpg?fit=728%2C410&ssl=1"/>
+            <div class="kolom">
+                <h3>Joki Rank MLBB</h3>
+                <p class="deskripsi">Aman, Murah Dan Terpercaya!</p>
+                <h2>Cek Promo Akhir Tahun Segera</h2>
+                <p>jokiwithray.store kini telah hadir, banyak promo menarik lainnya di akhir tahun, yuk buruan order joki di @jokiwithray.store</p>
+                <p>Yang mau order bisa chat mimin ya!</p>
+                <p><a href="https://wa.me/6281224306203" class="tbl-biru">Chat Admin</a></p>
+            </div>
+        </section>
+    </div>
+
+    <!-- untuk list harga -->
+    <section id="list-harga">
+        <div class="tengah">
+            <div class="kolom">
+                <b><h3>List Harga Joki MLBB</h3></b>
+            </div>
+            <div class="tutor-list">
+                <div class="kartu-tutor">
+                    <img src="IMG/gambar1.jpg"/>
+                    <p>Harga Joki Paketan (Recommended)</p>
+                </div>
+                <div class="kartu-tutor">
+                    <img src="IMG/gambar2.jpg"/>
+                    <p>Harga Joki Per Stars</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- untuk sosmed -->
+    <section id="sosmed">
+        <div class="tengah">
+            <div class="kolom">
+                <h2>Official Sosial Media</h2>
+                <p>Follow Mimin Agar Mengetahui Info Terbaru</p>
+            </div>
+            <div class="sosmed-container">
+                <div class="sosmed-list">
+                    <div class="kartu-partner">
+                        <a href="https://www.instagram.com/jokiwithray.store" target="_blank">
+                            <img src="https://img.freepik.com/free-vector/instagram-vector-social-media-icon-7-june-2021-bangkok-thailand_53876-136728.jpg?uid=R58618345&ga=GA1.1.1362839404.1730864119&semt=ais_hybrid" alt="Instagram" />
+                        </a>
+                        <p>Instagram</p>
+                    </div>
+                </div>
+                <div class="sosmed-list">
+                    <div class="kartu-partner">
+                        <a href="https://wa.me/6281224306203" target="_blank">
+                            <img src="https://img.freepik.com/free-vector/whatsapp-icon-design_23-2147900929.jpg?uid=R58618345&ga=GA1.1.1362839404.1730864119&semt=ais_hybrid" alt="WhatsApp" />
+                        </a>
+                        <p>WhatsApp</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="contact">
+        <div class="wrapper">
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>JOKI RANK</h3>
+                    <p>Mobile Legends Bang Bang.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>About</h3>
+                    <p>Joki Rank MLBB Aman, Murah Dan Terpercaya</p>
+
+                </div>
+                <div class="footer-section">
+                    <h3>Address</h3>
+                    <p>Jl. Pangeran Sutajaya, Kec. Babakan Kab. Cirebon</p>
+                    <p>Kode Pos: 45192</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="copyright">
+        <div class="wrapper">
+            &copy; 2022. <b>Jokiwithray_store</b> All Rights Reserved.
+        </div>
+    </div>
+
+    <!-- Modals for Sign Up and Log In -->
+    <div id="signup-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('signup-modal')">&times;</span>
+            <h2>Sign Up</h2>
+            <form id="signup-form">
+                <label for="signup-username">Username:</label>
+                <input type="text" id="signup-username" required>
+                <label for="signup-password">Password:</label>
+                <input type="password" id="signup-password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('login-modal')">&times;</span>
+            <h2>Log In</h2>
+            <form id="login-form">
+                <label for="login-username">Username:</label>
+                <input type="text" id="login-username" required>
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" required>
+                <button type="submit">Log In</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
